@@ -44,9 +44,6 @@
     cursor: not-allowed;
   }
   
-  /* Editor Content Wrapper */
- 
-  
   /* Emoji Button */
   .emoji-button {
     padding: 10px 15px;
@@ -72,9 +69,9 @@
   /* Emoji Picker Styles */
   .emoji-picker-container {
     position: absolute;
-    top: 180px; /* Adjust based on the button's height to place it below */
-    left: 50%; /* Center it horizontally with respect to the button */
-    transform: translateX(-50%); /* Offset to center it */
+    top: 180px; /
+    left: 50%; 
+    transform: translateX(-50%); 
     z-index: 10;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -83,7 +80,7 @@
   }
   
   
-  /* Minimal Responsive Design */
+  /*  Responsiveness*/
   @media (max-width: 768px) {
     .editor-title {
       font-size: 1.5em;
