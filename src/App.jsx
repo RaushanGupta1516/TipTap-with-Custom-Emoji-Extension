@@ -62,7 +62,7 @@ const App = () => {
         {/* Custom emoji button */}
         <EmojiButton editor={editor} />
       </div>
-         <p>Edited Line</p>
+         
       {/* Editor content area */}
       <div className="tiptap-editor">
         <EditorContent editor={editor} /> {/* Renders the editable content */}
