@@ -3,7 +3,7 @@ import { useEditor, EditorContent } from "@tiptap/react"; // Importing Tiptap ed
 import StarterKit from "@tiptap/starter-kit"; // Tiptap's basic extension set
 import EmojiExtension from "./EmojiExtension"; // Custom Emoji Extension
 import EmojiButton from "./EmojiButton"; // Button component for adding emojis
-
+import test from "./test";
 const App = () => {
   // Initializing the editor with necessary extensions and default content
   const editor = useEditor({
@@ -36,6 +36,7 @@ const App = () => {
         >
           Bold
         </button>
+        <test/>
 
         {/* Button to toggle italic text */}
         <button
@@ -61,7 +62,7 @@ const App = () => {
         {/* Custom emoji button */}
         <EmojiButton editor={editor} />
       </div>
-
+         <p>Edited Line</p>
       {/* Editor content area */}
       <div className="tiptap-editor">
         <EditorContent editor={editor} /> {/* Renders the editable content */}
